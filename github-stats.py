@@ -1,4 +1,3 @@
-
 #copy this script to your target repo
 #run python github-stats.py to collect data
 import re
@@ -115,4 +114,4 @@ while(result is not None):
 	#r_next = requests.get(next_url[1])
 
 	print r.headers['X-RateLimit-Remaining']
-	print user_stats
+	print user_stats  /**厉害的家伙/
